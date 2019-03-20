@@ -1,0 +1,95 @@
+/* 左边竖块 */
+.modetitle{
+    display: flex;
+    align-items: center;
+    padding: 0.85714286rem;
+    line-height: 1em;
+    background: #efeff4;
+    font-size: 1.14rem;
+}
+.modetitle:before {
+    content: '';
+    display: inline-block;
+    width: 0.21428571rem;
+    height: 1em;
+    background: #435448;
+    margin-right: 0.43rem;
+}
+
+/* 图片大小 */
+img{
+    width:100%;
+    vertical-align: middle;
+}
+body{
+    font-size: 14px;
+}
+a{
+    color:#000;
+    font-size: 14px;
+}
+a:hover{
+    color:#000;
+    text-decoration: none;
+}
+p {
+    display: block;
+    
+}
+.text-orange {
+    color: #FF734C;
+}
+.bg-white{
+    background:#fff;
+}
+.text-gray{
+    color:#B4BABF;
+}
+.icon-18{
+    font-size: 18px !important;
+}
+.micon-18{
+    width:18px !important;
+    height:18px !important;
+}
+.p-17{
+    padding:12px 17px;
+}
+.pt-17{
+    padding:0 17px 12px 17px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.vertical-center{
+    align-items: center;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.fweight-900{
+    font-weight: 900;
+}
+.fweight-300{
+    font-weight: 300;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.vux-popup-header-right{
+    color:#FF734C !important;
+}
+button{
+    border:0;
+    background-color:none;
+    outline: none;
+   
+}
+.weui-cells:before,.weui-cells:after{
+    border: none !important;
+    /* border-bottom: none !important; */
+    height:0 !important;
+}
